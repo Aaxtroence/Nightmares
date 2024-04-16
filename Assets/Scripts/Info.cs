@@ -28,6 +28,7 @@ public class Info : MonoBehaviour
     {
         dataController = GameObject.Find("DataController").GetComponent<DataController>();
         Difficulty = dataController.DifficultyVal;
+        KillsHS = dataController.KillsHighScore;
     }
 
     private void Start()
