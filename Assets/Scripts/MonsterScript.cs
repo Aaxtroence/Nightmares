@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using DG.Tweening;
 
 public class MonsterScript : MonoBehaviour
 {
@@ -20,6 +19,7 @@ public class MonsterScript : MonoBehaviour
     [SerializeField] private Transform spriteTf;
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private SpriteRenderer MonsterSprite;
+    private bool _FadeOut = false;
     
     private void Start() 
     {
@@ -30,6 +30,16 @@ public class MonsterScript : MonoBehaviour
 
     private void FixedUpdate() 
     {
+        if(_FadeOut)
+        {
+            MonsterSprite.color -= new Color(0, 0, 0, Time.deltaTime);
+            if (MonsterSprite.color.a <= 0)
+            {
+                Destroy(gameObject);
+            }
+        }
+
+
         if(!InAir && Health > 0 && CanMove)
         {
             animator.SetBool("IsWalking", true);
@@ -42,7 +52,7 @@ public class MonsterScript : MonoBehaviour
             GameObject.Find("Info").GetComponent<Info>().Kill();
 
             //Death Anim
-            FadeOut();
+            _FadeOut = true;
         }
     }
 
@@ -62,7 +72,7 @@ public class MonsterScript : MonoBehaviour
             CanMove = false;
 
             //Scream Anim
-            FadeOut();
+            _FadeOut = true;
         }
     }
 
@@ -73,14 +83,6 @@ public class MonsterScript : MonoBehaviour
             gameObject.layer = 0;
             InAir = false;
         }
-    }
-
-    private void FadeOut()
-    {
-        Sequence _FadeOut = DOTween.Sequence();
-        _FadeOut.Append(MonsterSprite.DOFade(0f, 1f));
-        _FadeOut.OnComplete(() => Destroy(gameObject));
-        _FadeOut.Play();
     }
 
     public void Hit()
