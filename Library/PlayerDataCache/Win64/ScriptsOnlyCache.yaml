@@ -8,8 +8,6 @@ ScriptsOnlyBuild:
     - MonsterScript
     - MonsterSpawner
     - Player
-    DOTween.dll:
-    - DG.Tweening.Core.DOTweenSettings
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Animation.Runtime.dll:
@@ -108,9 +106,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
   serializedClasses:
-    DOTween:
-    - DG.Tweening.Core.DOTweenSettings/ModulesSetup
-    - DG.Tweening.Core.DOTweenSettings/SafeModeOptions
     Unity.RenderPipelines.Core.Runtime:
     - UnityEngine.Rendering.UI.DebugUIPrefabBundle
     Unity.RenderPipelines.Universal.Runtime:
@@ -231,33 +226,33 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1782}
+      Script: {instanceID: 1778}
     - Class: 114
-      Script: {instanceID: 1820}
+      Script: {instanceID: 1816}
     - Class: 114
-      Script: {instanceID: 5166}
+      Script: {instanceID: 5154}
     - Class: 114
-      Script: {instanceID: 5568}
+      Script: {instanceID: 5548}
     - Class: 114
-      Script: {instanceID: 7402}
+      Script: {instanceID: 7380}
     - Class: 114
-      Script: {instanceID: 7534}
+      Script: {instanceID: 7512}
     - Class: 114
-      Script: {instanceID: 8268}
+      Script: {instanceID: 8246}
     - Class: 114
-      Script: {instanceID: 8442}
+      Script: {instanceID: 8420}
     - Class: 114
-      Script: {instanceID: 8786}
+      Script: {instanceID: 8764}
     - Class: 114
-      Script: {instanceID: 9148}
+      Script: {instanceID: 9126}
     - Class: 114
-      Script: {instanceID: 10344}
+      Script: {instanceID: 10316}
     - Class: 114
-      Script: {instanceID: 10446}
+      Script: {instanceID: 10418}
     - Class: 114
-      Script: {instanceID: 11364}
+      Script: {instanceID: 11336}
     - Class: 114
-      Script: {instanceID: 11960}
+      Script: {instanceID: 11932}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -294,123 +289,121 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 1772}
+    - Class: 114
+      Script: {instanceID: 1774}
+    - Class: 114
       Script: {instanceID: 1776}
     - Class: 114
       Script: {instanceID: 1778}
     - Class: 114
       Script: {instanceID: 1780}
     - Class: 114
-      Script: {instanceID: 1782}
+      Script: {instanceID: 1788}
     - Class: 114
-      Script: {instanceID: 1784}
+      Script: {instanceID: 1816}
     - Class: 114
-      Script: {instanceID: 1792}
+      Script: {instanceID: 1926}
     - Class: 114
-      Script: {instanceID: 1820}
+      Script: {instanceID: 2130}
     - Class: 114
-      Script: {instanceID: 1930}
+      Script: {instanceID: 2270}
     - Class: 114
-      Script: {instanceID: 2134}
+      Script: {instanceID: 2482}
     - Class: 114
-      Script: {instanceID: 2274}
+      Script: {instanceID: 2838}
     - Class: 114
-      Script: {instanceID: 2486}
+      Script: {instanceID: 3276}
     - Class: 114
-      Script: {instanceID: 2842}
+      Script: {instanceID: 3344}
     - Class: 114
-      Script: {instanceID: 3280}
+      Script: {instanceID: 3482}
     - Class: 114
-      Script: {instanceID: 3350}
+      Script: {instanceID: 4020}
     - Class: 114
-      Script: {instanceID: 3444}
+      Script: {instanceID: 4762}
     - Class: 114
-      Script: {instanceID: 3494}
+      Script: {instanceID: 4804}
     - Class: 114
-      Script: {instanceID: 4032}
+      Script: {instanceID: 4860}
     - Class: 114
-      Script: {instanceID: 4774}
+      Script: {instanceID: 4918}
     - Class: 114
-      Script: {instanceID: 4816}
+      Script: {instanceID: 5070}
     - Class: 114
-      Script: {instanceID: 4872}
+      Script: {instanceID: 5086}
     - Class: 114
-      Script: {instanceID: 4930}
+      Script: {instanceID: 5542}
     - Class: 114
-      Script: {instanceID: 5082}
+      Script: {instanceID: 5548}
     - Class: 114
-      Script: {instanceID: 5098}
+      Script: {instanceID: 5612}
     - Class: 114
-      Script: {instanceID: 5562}
+      Script: {instanceID: 5704}
     - Class: 114
-      Script: {instanceID: 5568}
+      Script: {instanceID: 5782}
     - Class: 114
-      Script: {instanceID: 5632}
+      Script: {instanceID: 6128}
     - Class: 114
-      Script: {instanceID: 5724}
+      Script: {instanceID: 6188}
     - Class: 114
-      Script: {instanceID: 5802}
+      Script: {instanceID: 6548}
     - Class: 114
-      Script: {instanceID: 6148}
+      Script: {instanceID: 6994}
     - Class: 114
-      Script: {instanceID: 6208}
+      Script: {instanceID: 7882}
     - Class: 114
-      Script: {instanceID: 6568}
+      Script: {instanceID: 7944}
     - Class: 114
-      Script: {instanceID: 7016}
+      Script: {instanceID: 8074}
     - Class: 114
-      Script: {instanceID: 7904}
+      Script: {instanceID: 8246}
     - Class: 114
-      Script: {instanceID: 7966}
+      Script: {instanceID: 8420}
     - Class: 114
-      Script: {instanceID: 8096}
+      Script: {instanceID: 8764}
     - Class: 114
-      Script: {instanceID: 8268}
+      Script: {instanceID: 9058}
     - Class: 114
-      Script: {instanceID: 8442}
+      Script: {instanceID: 9124}
     - Class: 114
-      Script: {instanceID: 8786}
+      Script: {instanceID: 9360}
     - Class: 114
-      Script: {instanceID: 9080}
+      Script: {instanceID: 9448}
     - Class: 114
-      Script: {instanceID: 9146}
+      Script: {instanceID: 9476}
     - Class: 114
-      Script: {instanceID: 9382}
+      Script: {instanceID: 9692}
     - Class: 114
-      Script: {instanceID: 9474}
+      Script: {instanceID: 9764}
     - Class: 114
-      Script: {instanceID: 9502}
+      Script: {instanceID: 10370}
     - Class: 114
-      Script: {instanceID: 9720}
+      Script: {instanceID: 10418}
     - Class: 114
-      Script: {instanceID: 9792}
+      Script: {instanceID: 10598}
     - Class: 114
-      Script: {instanceID: 10398}
+      Script: {instanceID: 10846}
     - Class: 114
-      Script: {instanceID: 10446}
+      Script: {instanceID: 11140}
     - Class: 114
-      Script: {instanceID: 10626}
+      Script: {instanceID: 11262}
     - Class: 114
-      Script: {instanceID: 10874}
+      Script: {instanceID: 11336}
     - Class: 114
-      Script: {instanceID: 11168}
+      Script: {instanceID: 11346}
     - Class: 114
-      Script: {instanceID: 11290}
+      Script: {instanceID: 11426}
     - Class: 114
-      Script: {instanceID: 11364}
+      Script: {instanceID: 11534}
     - Class: 114
-      Script: {instanceID: 11374}
+      Script: {instanceID: 11680}
     - Class: 114
-      Script: {instanceID: 11454}
+      Script: {instanceID: 11940}
     - Class: 114
-      Script: {instanceID: 11562}
+      Script: {instanceID: 12692}
     - Class: 114
-      Script: {instanceID: 11708}
-    - Class: 114
-      Script: {instanceID: 11968}
-    - Class: 114
-      Script: {instanceID: 12726}
-    - Class: 114
-      Script: {instanceID: 28848}
+      Script: {instanceID: 28816}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -710,18 +703,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSelectMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 29a38ed64d6189238642fda2875101f8
-    assemblyName: DOTween.dll
-    namespaceName: DG.Tweening.Core
-    className: DOTweenComponent
-  - hash:
-      serializedVersion: 2
-      Hash: cef9798948fddcca081b6c6392822bc2
-    assemblyName: DOTween.dll
-    namespaceName: DG.Tweening.Core
-    className: DOTweenSettings
   - hash:
       serializedVersion: 2
       Hash: cfa0bc588212b375b04e2336ce5e1315
@@ -2190,4 +2171,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/GameScene.unity
-  playerPath: C:/Users/1/UnityProjects/Sleeping Frog.exe
+  playerPath: C:/Users/1/Desktop/Nightmares/Nightmares.exe
